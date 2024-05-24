@@ -1,0 +1,60 @@
+{
+    "total": {
+        "name": "TOTAL",
+        "inputShape": [
+            24
+        ],
+        "outputShape": [
+            3
+        ],
+        "arenaBytes": 168,
+        "codeBytes": 948,
+        "weightBytes": 1884,
+        "unoptimizedCycles": 3007,
+        "optimizedCycles": 2771
+    },
+    "layers": [
+        {
+            "name": "input1",
+            "unoptimizedCycles": 0,
+            "optimizedCycles": 0,
+            "arenaBytes": 0,
+            "inputShape": [
+                24
+            ],
+            "outputShape": [
+                24
+            ],
+            "weightBytes": 0,
+            "codeBytes": 0
+        },
+        {
+            "name": "dense_Dense1",
+            "unoptimizedCycles": 2087,
+            "optimizedCycles": 1878,
+            "arenaBytes": 160,
+            "inputShape": [
+                24
+            ],
+            "outputShape": [
+                16
+            ],
+            "weightBytes": 1600,
+            "codeBytes": 430
+        },
+        {
+            "name": "dense_Dense2",
+            "unoptimizedCycles": 920,
+            "optimizedCycles": 893,
+            "arenaBytes": 76,
+            "inputShape": [
+                16
+            ],
+            "outputShape": [
+                3
+            ],
+            "weightBytes": 204,
+            "codeBytes": 184
+        }
+    ]
+}

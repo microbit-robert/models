@@ -1,0 +1,6 @@
+
+*** built/model.ml4f
+
+model: 2.77k; code: 0.93k (33.5%); arena: 0.16k; test 0.00k
+total cycles: 2771 (0.043ms at 64MHz)
+
